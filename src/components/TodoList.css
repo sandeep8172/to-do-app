@@ -1,0 +1,58 @@
+.main-box {
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    border: 1px rgb(209, 179, 179) solid;
+    border-top: none;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.checked-desc {
+    flex: 1;
+    margin-left: 2%;
+    text-decoration: line-through;
+}
+
+.text-desc {
+    flex: 1;
+    margin-left: 2%;
+}
+
+
+.date {
+    border: 1px solid black;
+    font-size: 0.9vw;
+    margin-right: 5%;
+    width: 7%;
+    text-align: center;
+    border-radius: 2vh;
+    background-color: rgba(215, 223, 229, 0.6);
+}
+
+.delete {
+    background-color: crimson;
+    border: 1px white solid;
+    border-radius: 1vh;
+    color: white;
+    margin-right: 0.5%;
+    padding: 0.5%;
+}
+
+.due-border {
+    border: 2px solid rgb(249, 249, 1);
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+
+.due-date {
+    text-align: center;
+    margin-top: -3vh;
+    color: red;
+}
